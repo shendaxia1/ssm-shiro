@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<!--  nameSpace必须指向Dao接口 -->
+<mapper namespace="com.shen.mapper.User">
+<select id="all" resultType="com.shen.model.User">
+SELECT * from user;
+</select>
+</mapper>
